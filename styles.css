@@ -48,3 +48,43 @@ body{
 .nav-links a:hover {
     color: #C89B78;
 }
+
+
+/* Hero section layout */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 50px;
+    background-color: #F4E1CD;
+}
+
+/* Profile image container */
+.profile-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #69140E;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Image hover effect */
+.profile-image img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 25px rgba(105, 20, 14, 0.35);
+}
+
+/* Introduction text */
+.hero-text h1 {
+    color: #69140E;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    color: #3C1518;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
