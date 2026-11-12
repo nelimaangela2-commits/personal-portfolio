@@ -88,3 +88,28 @@ body{
     font-size: 18px;
     margin-bottom: 10px;
 }
+
+
+/* About section */
+.about {
+    background-color: #F4E1CD;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* About heading */
+.about h2 {
+    color: #69140E;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+/* About text */
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    color: #3C1518;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
