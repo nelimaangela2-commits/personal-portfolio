@@ -403,3 +403,18 @@ body{
 }
 
 
+
+/* Footer */
+.footer {
+    background-color: #69140E;
+    color: #F4E1CD;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+
