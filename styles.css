@@ -281,3 +281,125 @@ body{
 }
 
 
+
+/* Contact section */
+.contact {
+    background-color: #F4E1CD;
+    padding: 80px 10%;
+}
+
+/* Contact heading */
+.contact h2 {
+    text-align: center;
+    color: #69140E;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* Contact introduction */
+.contact-intro {
+    text-align: center;
+    color: #3C1518;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+/* Contact container */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Contact information */
+.contact-info {
+    flex: 1;
+    color: #3C1518;
+}
+
+.contact-info h3 {
+    color: #69140E;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Contact links */
+.contact-links a {
+    color: #69140E;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    color: #C89B78;
+    text-decoration: underline;
+}
+
+/* Contact form container */
+.contact-form {
+    flex: 1;
+    background-color: #FFF9F2;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid #69140E;
+}
+
+/* Form labels */
+.contact-form label {
+    display: block;
+    color: #69140E;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/* Input fields and textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #C89B78;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* Input focus effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #69140E;
+}
+
+/* Send button */
+.contact-form button {
+    background-color: #69140E;
+    color: #F4E1CD;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button hover */
+.contact-form button:hover {
+    background-color: #3C1518;
+    transform: translateY(-3px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+
